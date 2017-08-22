@@ -1,0 +1,102 @@
+body {
+	background-color: #ffd2d1;
+	color: #8230ff;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: 'Codystar', cursive;
+	color: #8230ff;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+a, a:active, a:visited {
+	color: #8230ff;
+  text-decoration: none;
+  transition: 500ms;
+}
+
+a:hover{
+	color: #7cccff;
+  text-decoration: none;
+  transition: 300ms;
+}
+
+#links a, #links a:active, #links a:visited {
+  text-decoration: none;
+  color: #8230ff;
+  transition: 500ms;
+}
+
+ #links a:hover {
+  color: #ff033e;
+  text-decoration: none;
+  transition: 300ms;
+}
+
+.content-box {
+	margin-top: 20px;
+  border: 4px solid #ff9966;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  background-color: white;
+}
+
+#row-one, #row-two, #row-three {
+	background-color: white;
+	padding-top: 10px; 
+}
+
+.card-img-top {
+  width: 95%;
+  transition: width 300ms;
+}
+
+.card-img-top:hover {
+  width: 100%;
+  transition: width 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.card {
+  margin: 20px 0px;
+  padding: 15px;
+  /* border: 1px solid black; */
+}
+
+/* For footer positioning and to get rid of weird L-R scroll bar */
+html, body {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto;
+	/* Negative indent footer by its height */
+	margin: 0px auto -30px;
+	/* Pad bottom by footer height */
+	padding: 0px 0px 30px 0px;
+}
+
+/* Sticky footer styling! */
+#footer {
+	/* Must match margin-bottom in .wrapper CSS */
+  /* Set the fixed height of the footer here */
+  /* background-color: #fff17c; */
+	color: #ff033e;
+	height: 30px;
+	padding: 5px;
+	/* border-top: 2px solid #ff9966; */
+	text-align: center;
+	overflow: hidden;
+}
